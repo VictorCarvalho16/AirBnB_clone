@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+main.container {
+    width: 90%;
+    margin: 50px auto;
+}
+
+h1 {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li img {
+    width: 290px;
+    height: 200px;
+    border-radius:5px;
+    object-fit: cover;
+}
+
+ul li {
+    margin: 20px auto;
+    flex-basis: 25%;
+}
+
+p.type {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 2px;
+}
+
+p.name {
+    font-size: 0.9em;
+    font-weight: 200;
+    margin-bottom: 2px;
+}
